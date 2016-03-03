@@ -11,8 +11,8 @@ B1 D S I=K*PWR(URAMP((V(G,S)+VCT)+(N*LN(V(D,S))+(V(D,S)/MU))),X)
 *FOR MULTISIM COMMENT OUT ABOVE LINE (*) AND UNCOMMENT NEXT LINE 
 *B1 D S I=K*PWR(MAX((V(G,S)+VCT)+(N*LN(V(D,S))+(V(D,S)/MU)),0),X) 
 R1 G S {RG} 
-CGS G S 0P 
-CGD G D 0P 
+CGS G S 800P 
+CGD G D 800P 
 CDS G S 0P 
 .ENDS 2SK82 
 *-------------------------------------------------- 
